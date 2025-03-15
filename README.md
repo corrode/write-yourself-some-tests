@@ -127,12 +127,19 @@ cargo test --test fibonacci_is_prime
 
 - [embedded-test](https://github.com/probe-rs/embedded-test): A test harness and runner for embedded devices 
 
-
 ### Little Helpers
 
 - [pretty_assertions](https://github.com/rust-pretty-assertions/rust-pretty-assertions): Alternative to `assert_eq!` with better diffing and color support.
 - [assertor](https://github.com/google/assertor): Fluent assertion library for Rust with readable messages.
 
+### Test Coverage
+
+```
+cargo +stable install cargo-llvm-cov --locked
+cargo llvm-cov test --open
+```
+
 ### Procedural Macro Testing
 
 - [trybuild](https://crates.io/crates/trybuild): Testing procedural macros.
+
