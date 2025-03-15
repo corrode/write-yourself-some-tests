@@ -1,4 +1,4 @@
-# Workshop Testing in Rust
+# Write Yourself Some Tests in Rust
 
 ![Course Banner](/assets/banner.png)
 
